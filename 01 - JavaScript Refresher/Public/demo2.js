@@ -1,0 +1,1 @@
+console.log("In demo2.js", window.fn);
