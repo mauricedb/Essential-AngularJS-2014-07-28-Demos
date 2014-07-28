@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Introduction</title>
+</head>
+<body data-ng-app="myApp">
+
+    <h1>AngularJS Introduction</h1>
+    
+    {{ 1 + 1 }}
+    
+    
+    <div data-ng-controller="DemoCtrl">
+        
+        {{ model.name}}
+        <br />
+        <span data-ng-bind="model.name"></span>
+        <br />
+        <input type="text" ng-model="model.name" />
+        
+        <ul>
+            <li ng-repeat="person in people">
+                {{person.name}}
+            </li>
+        </ul>
+        <input type="text" ng-model="newPerson.name" />
+        <button ng-click="addPerson()">Add</button>
+        <br />
+        {{ now }}
+    </div>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="/demo.js"> </script>
+</body>
+</html>

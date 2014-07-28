@@ -1,0 +1,16 @@
+01 - JavaScript Refresher
+	http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742
+	http://jslint.com/
+	http://jshint.com/
+	http://www.typescriptlang.org/Playground
+	http://coffeescript.org/
+	List of languages that compile to JS 
+		https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS
+	
+02 - AngularJS Introduction
+	http://bower.io/
+	http://validator.w3.org/check
+	http://www.google.com/trends/explore#q=angularjs%2C%20Knockoutjs%2C%20Emberjs%2C%20Backbonejs&cmpt=q
+	
+
+
