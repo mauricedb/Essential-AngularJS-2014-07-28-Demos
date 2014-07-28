@@ -1,0 +1,18 @@
+{
+  "name": "NG intro",
+  "version": "0.0.0",
+  "authors": [
+    "Maurice de Beijer <maurice.de.beijer@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21"
+  }
+}
