@@ -13,4 +13,9 @@
 	http://www.google.com/trends/explore#q=angularjs%2C%20Knockoutjs%2C%20Emberjs%2C%20Backbonejs&cmpt=q
 	
 
+03 - Services Factories
+	AngularJS Batarang
+		https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en
+	
+
 
