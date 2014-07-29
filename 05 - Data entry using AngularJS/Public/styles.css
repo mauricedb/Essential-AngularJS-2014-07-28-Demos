@@ -1,0 +1,17 @@
+﻿body {
+}
+
+
+.error {
+    color: red;
+}
+
+
+.ng-valid-required {
+    border-color: green;
+
+}
+
+.ng-dirty {
+    font-weight: bold;
+}

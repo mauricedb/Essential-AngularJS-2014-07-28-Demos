@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Data entry using AngularJS</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body ng-app="booksApp" ng-controller="booksCtrl">
+    <h1>Data entry using AngularJS</h1>
+    
+    <form name="form">
+        <input type="checkbox" ng-model="isBookRequired" />
+        <div>
+            Title: <input type="text"
+                          name="title"
+                          ng-model="book.title"
+                          ng-required="isBookRequired"
+                          ng-minlength="5" />
+            <div ng-show="form.title.$error.required"
+                 class="error">
+                The title is required!
+            </div>
+            <div ng-show="form.title.$error.minlength"
+                 class="error">
+                The title should be 5 long or more!
+            </div>
+        </div>
+        <div>
+            Author: <input type="text"
+                           ng-model="book.author"
+                           ng-required="true" />
+        </div>
+        <div>
+            Year: <input type="number"
+                         name="year"
+                         ng-model="book.year"
+                         max="2014"/>
+            <div ng-show="form.year.$error.max"
+                 class="error">
+                Can't be in the future!
+            </div>
+        </div>
+        <div>
+            <button ng-click="save()"
+                    ng-disabled="form.$invalid || form.$pristine">
+                Save
+            </button>
+        </div>
+    </form>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="Demo.js"></script>
+</body>
+</html>
