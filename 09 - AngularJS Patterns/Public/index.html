@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Patterns</title>
+</head>
+<body ng-app="moviesApp" ng-controller="moviesCtrl">
+    <h1>AngularJS Patterns</h1>
+    
+    <a href="fouc.html">Flash of unstyled content</a>
+    
+    <input type="text" ng-model="model.firstName" />
+
+    <ul>
+        <li ng-repeat="movie in movies">
+            <input type="text" ng-model="model.firstName" />
+
+            {{movie.title}}
+            <button ng-click="delete(movie)">
+                Delete
+            </button>
+        </li>
+    </ul>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="demo.js"></script>
+</body>
+</html>
