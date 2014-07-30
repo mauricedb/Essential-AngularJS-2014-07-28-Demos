@@ -17,9 +17,18 @@
 	AngularJS Batarang
 		https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en
 	
-
+04 - AngularJS and AJAX
+	http://ngmodules.org/modules/restangular
+	http://www.breezejs.com/
+	
 06 - Single Page Applications
 	http://angular-ui.github.io/
 	http://angular-ui.github.io/ui-router/sample/#/
 	https://github.com/angular-ui/ui-router
+	
+07 - AngularJS Directives
+	http://angular-ui.github.io/bootstrap/
+	http://kendo-labs.github.io/angular-kendo/#/
+	http://binarymuse.github.io/ngInfiniteScroll/
+	http://rawstack.azurewebsites.net/
 	

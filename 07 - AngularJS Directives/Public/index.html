@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Directives</title>
+</head>
+<body ng-app="demoApp">
+    <h1>AngularJS Directives</h1>
+    
+    <div dm-demo1="true" data-ng-click="test()">The dmDemo1 directive</div>
+    <div dm-demo1>The other dmDemo1 directive</div>
+    
+    <div dm-template>This was the original content</div>
+    <br />
+    <dm-template>THis was here</dm-template>
+    
+    <div ng-controller="demoCtrl">
+        {{msg}}
+        <div dm-linked-scope msg="msg"></div>
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+        <script src="demo.js"></script>
+</body>
+</html>
