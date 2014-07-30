@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing AngularJS</title>
+</head>
+<body ng-app="moviesApp" ng-controller="moviesCtrl">
+    <h1>AngularJS Directives</h1>
+
+    <ul>
+        <li ng-repeat="movie in movies">
+            {{movie.title}}
+            <button ng-click="delete(movie)">
+                Delete
+            </button>
+        </li>
+    </ul>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="demo.js"></script>
+</body>
+</html>
