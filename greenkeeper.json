@@ -1,0 +1,16 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "01 - JavaScript Refresher/package.json",
+        "02 - AngularJS Introduction/package.json",
+        "03 - Services Factories/package.json",
+        "05 - Data entry using AngularJS/package.json",
+        "06 - Single Page Applications/package.json",
+        "07 - AngularJS Directives/package.json",
+        "08 - Testing AngularJS/package.json",
+        "09 - AngularJS Patterns/package.json"
+      ]
+    }
+  }
+}
